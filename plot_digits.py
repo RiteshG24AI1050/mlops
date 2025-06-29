@@ -18,7 +18,7 @@ n_samples = len(digits.images)
 data = digits.images.reshape((n_samples, -1))
 
 # Start debugging from here
-pdb.set_trace()
+# pdb.set_trace()
 
 # Use a portion of data for hyperparameter tuning
 X_train, X_test, y_train, y_test = train_test_split(
