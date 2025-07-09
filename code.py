@@ -1,5 +1,5 @@
 import numpy as np
-import statsmodels.api as sm
+import statsmodels as sm
 # Sample data
 X = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 y = np.array([2, 4, 5, 4, 5, 6, 5, 6])
