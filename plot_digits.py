@@ -1,3 +1,4 @@
+import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn import datasets, metrics, svm
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -80,3 +81,4 @@ print(
     f"{metrics.classification_report(y_true, y_pred)}\n"
 )
 
+st.pyplot(plt)
